@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB17E2BA1ACE919B002ED7A1 /* MonthlyReportCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB17E2B91ACE919B002ED7A1 /* MonthlyReportCell.m */; };
+		EB17E2BE1ACEB942002ED7A1 /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = EB17E2BD1ACEB942002ED7A1 /* XYPieChart.m */; };
+		EB37B81E1AC9944D00CEC522 /* AccountStatementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB37B81D1AC9944D00CEC522 /* AccountStatementCell.m */; };
+		EB71D1451AC5936F001110EA /* TxUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71D1441AC5936F001110EA /* TxUtils.m */; };
+		EB7FA7581AB1A10000B230FD /* AccountCreateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7FA7561AB1A10000B230FD /* AccountCreateVC.m */; };
+		EB7FA7591AB1A10000B230FD /* AccountCreateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB7FA7571AB1A10000B230FD /* AccountCreateVC.xib */; };
+		EBD449D61AC6D48F00646324 /* TransactionQueryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD449D41AC6D48F00646324 /* TransactionQueryVC.m */; };
+		EBD449D71AC6D48F00646324 /* TransactionQueryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD449D51AC6D48F00646324 /* TransactionQueryVC.xib */; };
+		EBD449DB1AC6D6C800646324 /* TransactionCancelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD449D91AC6D6C800646324 /* TransactionCancelVC.m */; };
+		EBD449DC1AC6D6C800646324 /* TransactionCancelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD449DA1AC6D6C800646324 /* TransactionCancelVC.xib */; };
+		EBD449E11AC6DA2500646324 /* IncomeTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD449DF1AC6DA2500646324 /* IncomeTableVC.m */; };
+		EBD449E21AC6DA2500646324 /* IncomeTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD449E01AC6DA2500646324 /* IncomeTableVC.xib */; };
+		EBD449E61AC6E23600646324 /* MonthlyReportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD449E41AC6E23600646324 /* MonthlyReportVC.m */; };
+		EBD449E71AC6E23600646324 /* MonthlyReportVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD449E51AC6E23600646324 /* MonthlyReportVC.xib */; };
+		EBD449EB1AC6E3B600646324 /* AccountStatementVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD449E91AC6E3B600646324 /* AccountStatementVC.m */; };
+		EBD449EC1AC6E3B600646324 /* AccountStatementVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD449EA1AC6E3B600646324 /* AccountStatementVC.xib */; };
+		EBD449F21AC6F67F00646324 /* BSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD449F11AC6F67F00646324 /* BSTableViewCell.m */; };
+		EBEFE4B51AD69BF1005088AE /* CoreDataContext.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEFE4B41AD69BF1005088AE /* CoreDataContext.m */; };
+		EBF749FA1ACC22A80082C473 /* TransactionItemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF749F91ACC22A80082C473 /* TransactionItemVC.m */; };
+		F12B08E71AD59DC1001971C8 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = F12B08E61AD59DC1001971C8 /* Transaction.m */; };
+		F12B08EB1AD59DC2001971C8 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = F12B08EA1AD59DC2001971C8 /* Account.m */; };
+		F12B08EF1AD59DC2001971C8 /* TransactionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F12B08EE1AD59DC2001971C8 /* TransactionItem.m */; };
+		F143AA6D1ADC219500D545CB /* TransactionImportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F143AA691ADC219500D545CB /* TransactionImportVC.m */; };
+		F143AA6E1ADC219500D545CB /* TransactionImportVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F143AA6A1ADC219500D545CB /* TransactionImportVC.xib */; };
+		F143AA6F1ADC219500D545CB /* BankAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F143AA6C1ADC219500D545CB /* BankAccountCell.m */; };
+		F14C6F341ABE03650034287F /* TransactionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F14C6F321ABE03650034287F /* TransactionVC.m */; };
+		F14C6F351ABE03650034287F /* TransactionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F14C6F331ABE03650034287F /* TransactionVC.xib */; };
+		F16F32191A9FFBA2002CFD8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F16F32181A9FFBA2002CFD8D /* main.m */; };
+		F16F321C1A9FFBA3002CFD8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F16F321B1A9FFBA3002CFD8D /* AppDelegate.m */; };
+		F16F321F1A9FFBA3002CFD8D /* PFM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F16F321D1A9FFBA3002CFD8D /* PFM.xcdatamodeld */; };
+		F16F32271A9FFBA3002CFD8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16F32261A9FFBA3002CFD8D /* Images.xcassets */; };
+		F18D9E8B1AC8994100DCC6C0 /* IncomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F18D9E8A1AC8994100DCC6C0 /* IncomeTableViewCell.m */; };
+		F1A902A81ABF661F0040ADBF /* PopoverTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A902A71ABF661F0040ADBF /* PopoverTableVC.m */; };
+		F1AFB59A1ACB47A400F81553 /* TQTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AFB5991ACB47A400F81553 /* TQTableViewCell.m */; };
+		F1B35F7A1AA27283006E06AF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B35F781AA27283006E06AF /* MainViewController.m */; };
+		F1B35F7B1AA27283006E06AF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1B35F791AA27283006E06AF /* MainViewController.xib */; };
+		F1B35F811AA2882A006E06AF /* BalanceSheetTablesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B35F801AA2882A006E06AF /* BalanceSheetTablesDataSource.m */; };
+		F1C8667F1ACF0CA40078BD84 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C8667D1ACF0CA40078BD84 /* PieChartViewController.m */; };
+		F1C866801ACF0CA40078BD84 /* PieChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1C8667E1ACF0CA40078BD84 /* PieChartViewController.xib */; };
+		F1CEDD681AB501A70018BAE6 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CEDD671AB501A70018BAE6 /* Utils.m */; };
+		F1CEDD6C1AB508090018BAE6 /* AccountCloseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CEDD6A1AB508090018BAE6 /* AccountCloseVC.m */; };
+		F1CEDD6D1AB508090018BAE6 /* AccountCloseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1CEDD6B1AB508090018BAE6 /* AccountCloseVC.xib */; };
+		F1EF1D411AB39C8F004D442A /* AccountRenameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EF1D3F1AB39C8F004D442A /* AccountRenameVC.m */; };
+		F1EF1D421AB39C8F004D442A /* AccountRenameVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1EF1D401AB39C8F004D442A /* AccountRenameVC.xib */; };
+		F1EF1D451AB4C44E004D442A /* AccountUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EF1D441AB4C44E004D442A /* AccountUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F1C866941AD189A10078BD84 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB17E2B81ACE919B002ED7A1 /* MonthlyReportCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthlyReportCell.h; sourceTree = "<group>"; };
+		EB17E2B91ACE919B002ED7A1 /* MonthlyReportCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthlyReportCell.m; sourceTree = "<group>"; };
+		EB17E2BC1ACEB942002ED7A1 /* XYPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPieChart.h; sourceTree = "<group>"; };
+		EB17E2BD1ACEB942002ED7A1 /* XYPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPieChart.m; sourceTree = "<group>"; };
+		EB37B81B1AC96E7700CEC522 /* PopoverTableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverTableDelegate.h; sourceTree = "<group>"; };
+		EB37B81C1AC9944D00CEC522 /* AccountStatementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountStatementCell.h; sourceTree = "<group>"; };
+		EB37B81D1AC9944D00CEC522 /* AccountStatementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountStatementCell.m; sourceTree = "<group>"; };
+		EB71D1431AC5936F001110EA /* TxUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TxUtils.h; sourceTree = "<group>"; };
+		EB71D1441AC5936F001110EA /* TxUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TxUtils.m; sourceTree = "<group>"; };
+		EB7FA7551AB1A10000B230FD /* AccountCreateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountCreateVC.h; sourceTree = "<group>"; };
+		EB7FA7561AB1A10000B230FD /* AccountCreateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountCreateVC.m; sourceTree = "<group>"; };
+		EB7FA7571AB1A10000B230FD /* AccountCreateVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountCreateVC.xib; sourceTree = "<group>"; };
+		EBC620851AC43EA500A58F52 /* TxLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TxLabels.h; sourceTree = "<group>"; };
+		EBD449D31AC6D48F00646324 /* TransactionQueryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionQueryVC.h; sourceTree = "<group>"; };
+		EBD449D41AC6D48F00646324 /* TransactionQueryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionQueryVC.m; sourceTree = "<group>"; };
+		EBD449D51AC6D48F00646324 /* TransactionQueryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionQueryVC.xib; sourceTree = "<group>"; };
+		EBD449D81AC6D6C800646324 /* TransactionCancelVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionCancelVC.h; sourceTree = "<group>"; };
+		EBD449D91AC6D6C800646324 /* TransactionCancelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionCancelVC.m; sourceTree = "<group>"; };
+		EBD449DA1AC6D6C800646324 /* TransactionCancelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionCancelVC.xib; sourceTree = "<group>"; };
+		EBD449DE1AC6DA2500646324 /* IncomeTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncomeTableVC.h; sourceTree = "<group>"; };
+		EBD449DF1AC6DA2500646324 /* IncomeTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncomeTableVC.m; sourceTree = "<group>"; };
+		EBD449E01AC6DA2500646324 /* IncomeTableVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IncomeTableVC.xib; sourceTree = "<group>"; };
+		EBD449E31AC6E23600646324 /* MonthlyReportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthlyReportVC.h; sourceTree = "<group>"; };
+		EBD449E41AC6E23600646324 /* MonthlyReportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthlyReportVC.m; sourceTree = "<group>"; };
+		EBD449E51AC6E23600646324 /* MonthlyReportVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthlyReportVC.xib; sourceTree = "<group>"; };
+		EBD449E81AC6E3B600646324 /* AccountStatementVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountStatementVC.h; sourceTree = "<group>"; };
+		EBD449E91AC6E3B600646324 /* AccountStatementVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountStatementVC.m; sourceTree = "<group>"; };
+		EBD449EA1AC6E3B600646324 /* AccountStatementVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountStatementVC.xib; sourceTree = "<group>"; };
+		EBD449F01AC6F67F00646324 /* BSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTableViewCell.h; sourceTree = "<group>"; };
+		EBD449F11AC6F67F00646324 /* BSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTableViewCell.m; sourceTree = "<group>"; };
+		EBEFE4B31AD69BF1005088AE /* CoreDataContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataContext.h; sourceTree = "<group>"; };
+		EBEFE4B41AD69BF1005088AE /* CoreDataContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataContext.m; sourceTree = "<group>"; };
+		EBF749F81ACC22A80082C473 /* TransactionItemVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionItemVC.h; sourceTree = "<group>"; };
+		EBF749F91ACC22A80082C473 /* TransactionItemVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionItemVC.m; sourceTree = "<group>"; };
+		F120992C1AD33F39002931F9 /* PFM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PFM.entitlements; sourceTree = "<group>"; };
+		F12B08E41AD5950F001971C8 /* PFM-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PFM-PrefixHeader.pch"; sourceTree = "<group>"; };
+		F12B08E51AD59DC1001971C8 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		F12B08E61AD59DC1001971C8 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		F12B08E91AD59DC2001971C8 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		F12B08EA1AD59DC2001971C8 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		F12B08ED1AD59DC2001971C8 /* TransactionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionItem.h; sourceTree = "<group>"; };
+		F12B08EE1AD59DC2001971C8 /* TransactionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionItem.m; sourceTree = "<group>"; };
+		F12B08F11AD5AB96001971C8 /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		F143AA681ADC219500D545CB /* TransactionImportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionImportVC.h; sourceTree = "<group>"; };
+		F143AA691ADC219500D545CB /* TransactionImportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionImportVC.m; sourceTree = "<group>"; };
+		F143AA6A1ADC219500D545CB /* TransactionImportVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionImportVC.xib; sourceTree = "<group>"; };
+		F143AA6B1ADC219500D545CB /* BankAccountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankAccountCell.h; sourceTree = "<group>"; };
+		F143AA6C1ADC219500D545CB /* BankAccountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankAccountCell.m; sourceTree = "<group>"; };
+		F14C6F311ABE03650034287F /* TransactionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionVC.h; sourceTree = "<group>"; };
+		F14C6F321ABE03650034287F /* TransactionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionVC.m; sourceTree = "<group>"; };
+		F14C6F331ABE03650034287F /* TransactionVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionVC.xib; sourceTree = "<group>"; };
+		F16F32131A9FFBA2002CFD8D /* PFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16F32171A9FFBA2002CFD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16F32181A9FFBA2002CFD8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F16F321A1A9FFBA2002CFD8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F16F321B1A9FFBA3002CFD8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F16F321E1A9FFBA3002CFD8D /* PFM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PFM.xcdatamodel; sourceTree = "<group>"; };
+		F16F32261A9FFBA3002CFD8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F18D9E891AC8994100DCC6C0 /* IncomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncomeTableViewCell.h; sourceTree = "<group>"; };
+		F18D9E8A1AC8994100DCC6C0 /* IncomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncomeTableViewCell.m; sourceTree = "<group>"; };
+		F1A902A61ABF661F0040ADBF /* PopoverTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverTableVC.h; sourceTree = "<group>"; };
+		F1A902A71ABF661F0040ADBF /* PopoverTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverTableVC.m; sourceTree = "<group>"; };
+		F1AFB5981ACB47A400F81553 /* TQTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTableViewCell.h; sourceTree = "<group>"; };
+		F1AFB5991ACB47A400F81553 /* TQTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTableViewCell.m; sourceTree = "<group>"; };
+		F1B35F771AA27283006E06AF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F1B35F781AA27283006E06AF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F1B35F791AA27283006E06AF /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F1B35F7F1AA2882A006E06AF /* BalanceSheetTablesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceSheetTablesDataSource.h; sourceTree = "<group>"; };
+		F1B35F801AA2882A006E06AF /* BalanceSheetTablesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceSheetTablesDataSource.m; sourceTree = "<group>"; };
+		F1C8667C1ACF0CA40078BD84 /* PieChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartViewController.h; sourceTree = "<group>"; };
+		F1C8667D1ACF0CA40078BD84 /* PieChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
+		F1C8667E1ACF0CA40078BD84 /* PieChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PieChartViewController.xib; sourceTree = "<group>"; };
+		F1CEDD661AB501A70018BAE6 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		F1CEDD671AB501A70018BAE6 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		F1CEDD691AB508090018BAE6 /* AccountCloseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountCloseVC.h; sourceTree = "<group>"; };
+		F1CEDD6A1AB508090018BAE6 /* AccountCloseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountCloseVC.m; sourceTree = "<group>"; };
+		F1CEDD6B1AB508090018BAE6 /* AccountCloseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountCloseVC.xib; sourceTree = "<group>"; };
+		F1EF1D3E1AB39C8F004D442A /* AccountRenameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRenameVC.h; sourceTree = "<group>"; };
+		F1EF1D3F1AB39C8F004D442A /* AccountRenameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountRenameVC.m; sourceTree = "<group>"; };
+		F1EF1D401AB39C8F004D442A /* AccountRenameVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountRenameVC.xib; sourceTree = "<group>"; };
+		F1EF1D431AB4C44E004D442A /* AccountUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountUtils.h; sourceTree = "<group>"; };
+		F1EF1D441AB4C44E004D442A /* AccountUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F16F32101A9FFBA2002CFD8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB17E2BB1ACEB92E002ED7A1 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				EB17E2BC1ACEB942002ED7A1 /* XYPieChart.h */,
+				EB17E2BD1ACEB942002ED7A1 /* XYPieChart.m */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		EB7FA7521AB1A05600B230FD /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				F1EF1D431AB4C44E004D442A /* AccountUtils.h */,
+				F1EF1D441AB4C44E004D442A /* AccountUtils.m */,
+				EB7FA7551AB1A10000B230FD /* AccountCreateVC.h */,
+				EB7FA7561AB1A10000B230FD /* AccountCreateVC.m */,
+				EB7FA7571AB1A10000B230FD /* AccountCreateVC.xib */,
+				F1EF1D3E1AB39C8F004D442A /* AccountRenameVC.h */,
+				F1EF1D3F1AB39C8F004D442A /* AccountRenameVC.m */,
+				F1EF1D401AB39C8F004D442A /* AccountRenameVC.xib */,
+				F1CEDD691AB508090018BAE6 /* AccountCloseVC.h */,
+				F1CEDD6A1AB508090018BAE6 /* AccountCloseVC.m */,
+				F1CEDD6B1AB508090018BAE6 /* AccountCloseVC.xib */,
+			);
+			name = Accounts;
+			sourceTree = "<group>";
+		};
+		EBB74A7E1AB6D6BC0089DA3C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F12B08E91AD59DC2001971C8 /* Account.h */,
+				F12B08EA1AD59DC2001971C8 /* Account.m */,
+				F12B08E51AD59DC1001971C8 /* Transaction.h */,
+				F12B08E61AD59DC1001971C8 /* Transaction.m */,
+				F12B08ED1AD59DC2001971C8 /* TransactionItem.h */,
+				F12B08EE1AD59DC2001971C8 /* TransactionItem.m */,
+				F12B08F11AD5AB96001971C8 /* Enums.h */,
+				EBEFE4B31AD69BF1005088AE /* CoreDataContext.h */,
+				EBEFE4B41AD69BF1005088AE /* CoreDataContext.m */,
+				F16F321D1A9FFBA3002CFD8D /* PFM.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		EBD449DD1AC6D9E100646324 /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				EB17E2BB1ACEB92E002ED7A1 /* ThirdParty */,
+				EBD449DE1AC6DA2500646324 /* IncomeTableVC.h */,
+				EBD449DF1AC6DA2500646324 /* IncomeTableVC.m */,
+				EBD449E01AC6DA2500646324 /* IncomeTableVC.xib */,
+				F18D9E891AC8994100DCC6C0 /* IncomeTableViewCell.h */,
+				F18D9E8A1AC8994100DCC6C0 /* IncomeTableViewCell.m */,
+				F1C8667C1ACF0CA40078BD84 /* PieChartViewController.h */,
+				F1C8667D1ACF0CA40078BD84 /* PieChartViewController.m */,
+				F1C8667E1ACF0CA40078BD84 /* PieChartViewController.xib */,
+				EBD449E31AC6E23600646324 /* MonthlyReportVC.h */,
+				EBD449E41AC6E23600646324 /* MonthlyReportVC.m */,
+				EBD449E51AC6E23600646324 /* MonthlyReportVC.xib */,
+				EB17E2B81ACE919B002ED7A1 /* MonthlyReportCell.h */,
+				EB17E2B91ACE919B002ED7A1 /* MonthlyReportCell.m */,
+				EBD449E81AC6E3B600646324 /* AccountStatementVC.h */,
+				EBD449E91AC6E3B600646324 /* AccountStatementVC.m */,
+				EBD449EA1AC6E3B600646324 /* AccountStatementVC.xib */,
+				EB37B81C1AC9944D00CEC522 /* AccountStatementCell.h */,
+				EB37B81D1AC9944D00CEC522 /* AccountStatementCell.m */,
+			);
+			name = Reports;
+			sourceTree = "<group>";
+		};
+		F14C6F361ABE067B0034287F /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				EB71D1431AC5936F001110EA /* TxUtils.h */,
+				EB71D1441AC5936F001110EA /* TxUtils.m */,
+				EBC620851AC43EA500A58F52 /* TxLabels.h */,
+				F14C6F311ABE03650034287F /* TransactionVC.h */,
+				F14C6F321ABE03650034287F /* TransactionVC.m */,
+				F14C6F331ABE03650034287F /* TransactionVC.xib */,
+				EBD449D31AC6D48F00646324 /* TransactionQueryVC.h */,
+				EBD449D41AC6D48F00646324 /* TransactionQueryVC.m */,
+				EBD449D51AC6D48F00646324 /* TransactionQueryVC.xib */,
+				F1AFB5981ACB47A400F81553 /* TQTableViewCell.h */,
+				F1AFB5991ACB47A400F81553 /* TQTableViewCell.m */,
+				EBD449D81AC6D6C800646324 /* TransactionCancelVC.h */,
+				EBD449D91AC6D6C800646324 /* TransactionCancelVC.m */,
+				EBD449DA1AC6D6C800646324 /* TransactionCancelVC.xib */,
+				EBF749F81ACC22A80082C473 /* TransactionItemVC.h */,
+				EBF749F91ACC22A80082C473 /* TransactionItemVC.m */,
+				F143AA681ADC219500D545CB /* TransactionImportVC.h */,
+				F143AA691ADC219500D545CB /* TransactionImportVC.m */,
+				F143AA6A1ADC219500D545CB /* TransactionImportVC.xib */,
+				F143AA6B1ADC219500D545CB /* BankAccountCell.h */,
+				F143AA6C1ADC219500D545CB /* BankAccountCell.m */,
+			);
+			name = Transactions;
+			sourceTree = "<group>";
+		};
+		F16F320A1A9FFBA2002CFD8D = {
+			isa = PBXGroup;
+			children = (
+				F16F32151A9FFBA2002CFD8D /* PFM */,
+				F16F32141A9FFBA2002CFD8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F16F32141A9FFBA2002CFD8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F16F32131A9FFBA2002CFD8D /* PFM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F16F32151A9FFBA2002CFD8D /* PFM */ = {
+			isa = PBXGroup;
+			children = (
+				F120992C1AD33F39002931F9 /* PFM.entitlements */,
+				EBB74A7E1AB6D6BC0089DA3C /* CoreData */,
+				F1B35F821AA288D7006E06AF /* BalanceSheet */,
+				EB7FA7521AB1A05600B230FD /* Accounts */,
+				F14C6F361ABE067B0034287F /* Transactions */,
+				EBD449DD1AC6D9E100646324 /* Reports */,
+				F16F321A1A9FFBA2002CFD8D /* AppDelegate.h */,
+				F16F321B1A9FFBA3002CFD8D /* AppDelegate.m */,
+				F1CEDD661AB501A70018BAE6 /* Utils.h */,
+				F1CEDD671AB501A70018BAE6 /* Utils.m */,
+				F1A902A61ABF661F0040ADBF /* PopoverTableVC.h */,
+				F1A902A71ABF661F0040ADBF /* PopoverTableVC.m */,
+				EB37B81B1AC96E7700CEC522 /* PopoverTableDelegate.h */,
+				F16F32261A9FFBA3002CFD8D /* Images.xcassets */,
+				F16F32161A9FFBA2002CFD8D /* Supporting Files */,
+			);
+			path = PFM;
+			sourceTree = "<group>";
+		};
+		F16F32161A9FFBA2002CFD8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F12B08E41AD5950F001971C8 /* PFM-PrefixHeader.pch */,
+				F16F32171A9FFBA2002CFD8D /* Info.plist */,
+				F16F32181A9FFBA2002CFD8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1B35F821AA288D7006E06AF /* BalanceSheet */ = {
+			isa = PBXGroup;
+			children = (
+				F1B35F771AA27283006E06AF /* MainViewController.h */,
+				F1B35F781AA27283006E06AF /* MainViewController.m */,
+				F1B35F791AA27283006E06AF /* MainViewController.xib */,
+				F1B35F7F1AA2882A006E06AF /* BalanceSheetTablesDataSource.h */,
+				F1B35F801AA2882A006E06AF /* BalanceSheetTablesDataSource.m */,
+				EBD449F01AC6F67F00646324 /* BSTableViewCell.h */,
+				EBD449F11AC6F67F00646324 /* BSTableViewCell.m */,
+			);
+			name = BalanceSheet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F16F32121A9FFBA2002CFD8D /* PFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16F32391A9FFBA3002CFD8D /* Build configuration list for PBXNativeTarget "PFM" */;
+			buildPhases = (
+				F16F320F1A9FFBA2002CFD8D /* Sources */,
+				F16F32101A9FFBA2002CFD8D /* Frameworks */,
+				F16F32111A9FFBA2002CFD8D /* Resources */,
+				F1C866941AD189A10078BD84 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PFM;
+			productName = PFM;
+			productReference = F16F32131A9FFBA2002CFD8D /* PFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F16F320B1A9FFBA2002CFD8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "SM504 Project Team";
+				TargetAttributes = {
+					F16F32121A9FFBA2002CFD8D = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 3JA7TQ96R4;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F16F320E1A9FFBA2002CFD8D /* Build configuration list for PBXProject "PFM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F16F320A1A9FFBA2002CFD8D;
+			productRefGroup = F16F32141A9FFBA2002CFD8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F16F32121A9FFBA2002CFD8D /* PFM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F16F32111A9FFBA2002CFD8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16F32271A9FFBA3002CFD8D /* Images.xcassets in Resources */,
+				F1CEDD6D1AB508090018BAE6 /* AccountCloseVC.xib in Resources */,
+				F1C866801ACF0CA40078BD84 /* PieChartViewController.xib in Resources */,
+				F1B35F7B1AA27283006E06AF /* MainViewController.xib in Resources */,
+				F1EF1D421AB39C8F004D442A /* AccountRenameVC.xib in Resources */,
+				F143AA6E1ADC219500D545CB /* TransactionImportVC.xib in Resources */,
+				EBD449E71AC6E23600646324 /* MonthlyReportVC.xib in Resources */,
+				EB7FA7591AB1A10000B230FD /* AccountCreateVC.xib in Resources */,
+				EBD449EC1AC6E3B600646324 /* AccountStatementVC.xib in Resources */,
+				EBD449DC1AC6D6C800646324 /* TransactionCancelVC.xib in Resources */,
+				EBD449E21AC6DA2500646324 /* IncomeTableVC.xib in Resources */,
+				F14C6F351ABE03650034287F /* TransactionVC.xib in Resources */,
+				EBD449D71AC6D48F00646324 /* TransactionQueryVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F16F320F1A9FFBA2002CFD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB71D1451AC5936F001110EA /* TxUtils.m in Sources */,
+				F12B08EF1AD59DC2001971C8 /* TransactionItem.m in Sources */,
+				EB17E2BA1ACE919B002ED7A1 /* MonthlyReportCell.m in Sources */,
+				F16F321C1A9FFBA3002CFD8D /* AppDelegate.m in Sources */,
+				F16F32191A9FFBA2002CFD8D /* main.m in Sources */,
+				F1B35F811AA2882A006E06AF /* BalanceSheetTablesDataSource.m in Sources */,
+				EBD449DB1AC6D6C800646324 /* TransactionCancelVC.m in Sources */,
+				EBD449E11AC6DA2500646324 /* IncomeTableVC.m in Sources */,
+				EBD449EB1AC6E3B600646324 /* AccountStatementVC.m in Sources */,
+				F12B08EB1AD59DC2001971C8 /* Account.m in Sources */,
+				F1CEDD681AB501A70018BAE6 /* Utils.m in Sources */,
+				F1B35F7A1AA27283006E06AF /* MainViewController.m in Sources */,
+				EBEFE4B51AD69BF1005088AE /* CoreDataContext.m in Sources */,
+				EB37B81E1AC9944D00CEC522 /* AccountStatementCell.m in Sources */,
+				F1CEDD6C1AB508090018BAE6 /* AccountCloseVC.m in Sources */,
+				EBD449D61AC6D48F00646324 /* TransactionQueryVC.m in Sources */,
+				EBD449F21AC6F67F00646324 /* BSTableViewCell.m in Sources */,
+				F1C8667F1ACF0CA40078BD84 /* PieChartViewController.m in Sources */,
+				F18D9E8B1AC8994100DCC6C0 /* IncomeTableViewCell.m in Sources */,
+				F12B08E71AD59DC1001971C8 /* Transaction.m in Sources */,
+				F16F321F1A9FFBA3002CFD8D /* PFM.xcdatamodeld in Sources */,
+				F143AA6F1ADC219500D545CB /* BankAccountCell.m in Sources */,
+				EB7FA7581AB1A10000B230FD /* AccountCreateVC.m in Sources */,
+				F1A902A81ABF661F0040ADBF /* PopoverTableVC.m in Sources */,
+				EBD449E61AC6E23600646324 /* MonthlyReportVC.m in Sources */,
+				F143AA6D1ADC219500D545CB /* TransactionImportVC.m in Sources */,
+				F14C6F341ABE03650034287F /* TransactionVC.m in Sources */,
+				F1EF1D451AB4C44E004D442A /* AccountUtils.m in Sources */,
+				F1AFB59A1ACB47A400F81553 /* TQTableViewCell.m in Sources */,
+				F1EF1D411AB39C8F004D442A /* AccountRenameVC.m in Sources */,
+				EB17E2BE1ACEB942002ED7A1 /* XYPieChart.m in Sources */,
+				EBF749FA1ACC22A80082C473 /* TransactionItemVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F16F32371A9FFBA3002CFD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = PFM;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F16F32381A9FFBA3002CFD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PFM;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F16F323A1A9FFBA3002CFD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PFM/PFM.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PFM/PFM-PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PFM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PFM/PFM-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F16F323B1A9FFBA3002CFD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PFM/PFM.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PFM/PFM-PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = PFM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PFM/PFM-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F16F320E1A9FFBA2002CFD8D /* Build configuration list for PBXProject "PFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16F32371A9FFBA3002CFD8D /* Debug */,
+				F16F32381A9FFBA3002CFD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16F32391A9FFBA3002CFD8D /* Build configuration list for PBXNativeTarget "PFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16F323A1A9FFBA3002CFD8D /* Debug */,
+				F16F323B1A9FFBA3002CFD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F16F321D1A9FFBA3002CFD8D /* PFM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F16F321E1A9FFBA3002CFD8D /* PFM.xcdatamodel */,
+			);
+			currentVersion = F16F321E1A9FFBA3002CFD8D /* PFM.xcdatamodel */;
+			path = PFM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F16F320B1A9FFBA2002CFD8D /* Project object */;
+}
